@@ -1,126 +1,156 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+
 	<info>
 		<name>Diplomat</name>
-		<update version="0.3.2">
-			<file name="class-diplomat.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/players-handbook/classes/class-rogue.xml" />
+		<description>A Diplomat class made by u/Vmlmyway</description>
+		<author url="https://www.reddit.com/r/DnDHomebrew/comments/7s1hsr/class_diplomat_updated_with_subclasses/">u/Vmlmyway</author>
+		<update version="2.0">
+			<file name="class-diplomat.xml" url="" />
 		</update>
 	</info>
 
-	<element name="Rogue" type="Class" source="Player’s Handbook" id="ID_WOTC_PHB_CLASS_ROGUE">
+	<element name="Diplomat" type="Source" source="Homebrew" id="ID_HOMEBREW_SOURCE_DIPLOMAT">
 		<description>
-			<p>Signaling for her companions to wait, a halfling creeps forward through the dungeon hall. She presses an ear to the door, then pulls out a set of tools and picks the lock in the blink of an eye. Then she disappears into the shadows as her fighter friend moves forward to kick the door open.</p>
-			<p class="indent">A human lurks in the shadows of an alley while his accomplice prepares for her part in the ambush. When their target—a notorious slaver—passes the alleyway, the accomplice cries out, the slaver comes to investigate, and the assassin’s blade cuts his throat before he can make a sound.</p>
-			<p class="indent">Suppressing a giggle, a gnome waggles her fingers and magically lifts the key ring from the guard’s belt. In a moment, the keys are in her hand, the cell door is open, and she and her companions are free to make their escape.</p>
-			<p class="indent">Rogues rely on skill, stealth, and their foes’ vulnerabilities to get the upper hand in any situation. They have a knack for finding the solution to just about any problem, demonstrating a resourcefulness and versatility that is the cornerstone of any successful adventuring party.</p>
-			<h4>SKILL AND PRECISION</h4>
-			<p>Rogues devote as much effort to mastering the use of a variety of skills as they do to perfecting their combat abilities, giving them a broad expertise that few other characters can match. Many rogues focus on stealth and deception, while others refine the skills that help them in a dungeon environment, such as climbing, finding and disarming traps, and opening locks.</p>
-			<p class="indent">When it comes to combat, rogues prioritize cunning over brute strength. A rogue would rather make one precise strike, placing it exactly where the attack will hurt the target most, than wear an opponent down with a barrage of attacks. Rogues have an almost supernatural knack for avoiding danger, and a few learn magical tricks to supplement their other abilities.</p>
-			<h4>A SHADY LIVING</h4>
-			<p>Every town and city has its share of rogues. Most of them live up to the worst stereotypes of the class, making a living as burglars, assassins, cutpurses, and con artists. Often, these scoundrels are organized into thieves’ guilds or crime families. Plenty of rogues operate independently, but even they sometimes recruit apprentices to help them in their scams and heists. A few rogues make an honest living as locksmiths, investigators, or exterminators, which can be a dangerous job in a world where dire rats—and wererats—haunt the sewers.</p>
-			<p class="indent">As adventurers, rogues fall on both sides of the law. Some are hardened criminals who decide to seek their fortune in treasure hoards, while others take up a life of adventure to escape from the law. Some have learned and perfected their skills with the explicit purpose of infiltrating ancient ruins and hidden crypts in search of treasure.</p>
-			<h4>CREATING A ROGUE</h4>
-			<p>As you create your rogue character, consider the character’s relationship to the law. Do you have a criminal past—or present? Are you on the run from the law or from an angry thieves’ guild master? Or did you leave your guild in search of bigger risks and bigger rewards? Is it greed that drives you in your adventures, or some other desire or ideal?</p>
-			<p>What was the trigger that led you away from your previous life? Did a great con or heist gone terribly wrong cause you to reevaluate your career? Maybe you were lucky and a successful robbery gave you the coin you needed to escape the squalor of your life. Did wanderlust finally call you away from your home? Perhaps you suddenly found yourself cut off from your family or your mentor, and you had to find a new means of support. Or maybe you made a new friend—another member of your adventuring party—who showed you new possibilities for earning a living and employing your particular talents.</p>
+			<p>A diplomat with added subclasses.</p>	
+		</description>
+		<setters>
+			<set name="abbreviation">KOP</set>
+			<set name="url">https://homebrewery.naturalcrit.com/share/rkbzM15ZSM</set>
+      <set name="image"></set>
+			<set name="author" abbreviation="MyWay" url="https://www.reddit.com/user/Vmlmyway/">u/Vmlmyway</set>
+			<set name="homebrew">true</set>
+		</setters>
+	</element>
+
+	<element name="Diplomat" type="Class" source="Reddit" id="ID_CLASS_DIPLOMAT">
+		<description>
+			<p>While most humanoids in this realm were trained for combat, the diplomat was trained with literacy. He was trained to string together words to difuse or advance a situation.</p>
+			<p class="indent">Diplomats were trained under harsh conditions. They have been trained to resist torture and to never divulge information they dont want to. Further more, their training has made them experts in deception and persuasion.</p>
+			<p class="indent">A diplomat has been trained to get out of any situation using only his words.</p>
+
+			<h4>SCIENCE OF MICROEXPRESSIONS</h4>
+			<p>Diplomats have been trained to read microexpressoins or facial cues. </p>
+			<p class="indent">Diplomats were trained under harsh conditions. They have been trained to resist torture and to never divulge information they dont want to. Further more, their training has made them experts in deception and persuasion.</p>
+			<p class="indent">These cues can show the true intent of a person before they show thier hand. Diplomats use this information to their advantage to gain knowledge that most wouldnt be able to aquire.</p>
+			<p class="indent">This allows them to act before the enemy can suprise them. If the expression shows ill intent towards the diplomat or his alies, he can relay this information as to be ready for when the enemy strikes. This training also makes diplomats experts at deducing lies from the truth.</p>
+
+			<h4>YEARS OF TRAINING</h4>
+			<p>Diplomats have gone through extisive training to aquire their skills. To begin with, the diplomat went through harsh courses to ingrain the signs of deception into their heads.</p>
+			<p class="indent">They would be tested in a real world enviorment, if they failed they would be forced out of their acadamey. If they suceeded they would move onto the next course, persuasion. Diplomats were trained to persuade even the best, they have been known to even be able to beat the zone of truth with enough pratice.</p>
+			<p class="indent">They can dodge even the most well worded question by giving vauge answers that could mean anything. Once they passed that course they were trained in insight. For their final test they would be put in a crowded area and told to find the assassin.</p>
+			<p class="indent">If they failed, they would be killed as to preserve the good name of the diplomats. If they suceeded they would graduate from the academy and sent out to work their type of magic.</p>
+			
+			<h4>CREATING A DIPLOMAT</h4>
+			<p>When Creating a Diplomat you need to think about where he or she was trained. How you got into the academy, and how close you came to failing the tests.</p>
+			<p>Were you forced into this job by your controlling parents or did you choose yourself? Did you leave or were you assigned to a agressive party as a way to fix the problems that violence couldnt fix?</p>
+			<p>Did you turn evil and use your newly found power for your own benefit, or do you use your powers for the good of the common man? Most Diplomats are True Nuetral as to not take sides and to be fully able to go however far they need to diffuse a situation.</p>
+			
 			<h5>QUICK BUILD</h5>
-			<p>You can make a rogue quickly by following these suggestions. First, Dexterity should be your highest ability score. Make Intelligence your next-highest if you want to excel at Investigation. Choose Charisma instead if you plan to emphasize deception and social interaction. Second, choose the criminal background.</p>
+			<p>You can make a a diplomat quickly by following these suggestions. First make Charisma you highest ability score, followed by Wisdom. Choose your favored background.</p>
+
 			<h3>CLASS FEATURES</h3>
-			<p>As a rogue, you have the following class features.</p>
+			<p>As a diplomat, you have the following class features.</p>
+
 			<h5>HIT POINTS</h5>
 			<ul class="unstyled">
-				<li><strong>Hit Dice:</strong> 1d8 per rogue level</li>
-				<li><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</li>
-				<li><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per rogue level after 1st</li>
+				<li><strong>Hit Dice:</strong> 1d6 per diplomat level</li>
+				<li><strong>Hit Points at 1st Level:</strong> 6 + your Constitution modifier</li>
+				<li><strong>Hit Points at Higher Levels:</strong> 1d6 (or 4) + your Constitution modifier per diplomat level after 1st</li>
 			</ul>
 			<h5>PROFICIENCIES</h5>
 			<ul class="unstyled mb">
 				<li><strong>Armor:</strong> Light armor</li>
-				<li><strong>Weapons:</strong> Simple weapons, hand crossbows, longswords, rapiers, shortswords</li>
-				<li><strong>Tools:</strong> Thieves’ tools</li>
+				<li><strong>Weapons:</strong> Shortsword, Dagger, Rapier, Blowgun</li>
+				<li><strong>Tools:</strong> Calligraphers tools</li>
 			</ul>
 			<ul class="unstyled">
-				<li><strong>Saving Throws:</strong> Dexterity, Intelligence</li>
-				<li><strong>Skills:</strong> Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Performance, Persuasion, Sleight of Hand, and Stealth</li>
+				<li><strong>Saving Throws:</strong> Charisma, Wisdom</li>
+				<li><strong>Skills:</strong> Choose two from Deception, Insight, Investigation, Perception, Persuasion, and Stealth</li>
 			</ul>
 			<h5>EQUIPMENT</h5>
 			<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
 			<ul>
-				<li>(a) a rapier or (b) a shortsword</li>
-				<li>(a) a shortbow and quiver of 20 arrows or (b) a shortsword</li>
-				<li>(a) a burglar’s pack, (b) a dungeoneer’s pack, or (c) an explorer’s pack</li>
-				<li>Leather armor, two daggers, and thieves’ tools</li>
+				<li>(a) A Rapier or (b) Shortsword</li>
+				<li>(a) 5 Daggers (b) Blowgun</li>
+				<li>Leather Armor and Diplomats Pack</li>
 			</ul>
-			<h5 class="caption">THE ROGUE</h5>
+
+			<h5 class="caption">THE DIPLOMAT</h5>
+	
 			<table class="class-features">
 				<thead>
-					<tr><td class="col-5">Level</td><td class="col-10">Sneak Attack</td><td class="col-60 left">Features</td></tr>
+					<tr><td class="col-5">Level</td><td class="col-10">Persuasion Points</td><td class="col-60 left">Features</td></tr>
 				</thead>
-				<tr><td> 1st</td><td>1d6</td><td class="left">Expertise, Sneak Attack, Thieves’ Cant</td></tr>
-				<tr><td> 2nd</td><td>1d6</td><td class="left">Cunning Action</td></tr>
-				<tr><td> 3rd</td><td>2d6</td><td class="left">Roguish Archetype</td></tr>
-				<tr><td> 4th</td><td>2d6</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td> 5th</td><td>3d6</td><td class="left">Uncanny Dodge</td></tr>
-				<tr><td> 6th</td><td>3d6</td><td class="left">Expertise</td></tr>
-				<tr><td> 7th</td><td>4d6</td><td class="left">Evasion</td></tr>
-				<tr><td> 8th</td><td>4d6</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td> 9th</td><td>Sd6</td><td class="left">Roguish Archetype feature</td></tr>
-				<tr><td>10th</td><td>Sd6</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>11th</td><td>6d6</td><td class="left">Reliable Talent</td></tr>
-				<tr><td>12th</td><td>6d6</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>13th</td><td>7d6</td><td class="left">Roguish Archetype feature</td></tr>
-				<tr><td>14th</td><td>7d6</td><td class="left">Blindsense</td></tr>
-				<tr><td>15th</td><td>8d6</td><td class="left">Slippery Mind</td></tr>
-				<tr><td>16th</td><td>8d6</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>17th</td><td>9d6</td><td class="left">Roguish Archetype feature</td></tr>
-				<tr><td>18th</td><td>9d6</td><td class="left">Elusive</td></tr>
-				<tr><td>19th</td><td>10d6</td><td class="left">Ability Score Improvement</td></tr>
-				<tr><td>20th</td><td>10d6</td><td class="left">Stroke of Luck</td></tr>
+				<tr><td> 1st</td><td>-</td><td class="left">Diplomatic Training</td></tr>
+				<tr><td> 2nd</td><td>+2</td><td class="left">Persuasion Points, Diffuse</td></tr>
+				<tr><td> 3rd</td><td>+3</td><td class="left">Helping Hand</td></tr>
+				<tr><td> 4th</td><td>+4</td><td class="left">Ability Score Improvement, Diplomatic Training Feat</td></tr>
+				<tr><td> 5th</td><td>+5</td><td class="left">True Persuasion</td></tr>
+				<tr><td> 6th</td><td>+6</td><td class="left">Mental Training</td></tr>
+				<tr><td> 7th</td><td>+7</td><td class="left">Alter Memory, Diffuse(2)</td></tr>
+				<tr><td> 8th</td><td>+8</td><td class="left">Ability Score Improvement, Linguist</td></tr>
+				<tr><td> 9th</td><td>+9</td><td class="left">Charismatic Manipulation</td></tr>
+				<tr><td>10th</td><td>+10</td><td class="left">Words of Wisdom</td></tr>
+				<tr><td>11th</td><td>+11</td><td class="left">Counter Charm</td></tr>
+				<tr><td>12th</td><td>+12</td><td class="left">Ability Score Improvement, Diplomatic Training Feat</td></tr>
+				<tr><td>13th</td><td>+13</td><td class="left">Overwhelming Personality</td></tr>
+				<tr><td>14th</td><td>+14</td><td class="left">Crowd Control</td></tr>
+				<tr><td>15th</td><td>+15</td><td class="left">Facial Deduction</td></tr>
+				<tr><td>16th</td><td>+16</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td>17th</td><td>+17</td><td class="left">Diplomatic Suggestion</td></tr>
+				<tr><td>18th</td><td>+18</td><td class="left">Diplomatic Training Feat</td></tr>
+				<tr><td>19th</td><td>+19</td><td class="left">Ability Score Improvement</td></tr>
+				<tr><td>20th</td><td>+20</td><td class="left">Master Diplomat</td></tr>
 			</table>
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_EXPERTISE"/>
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_SNEAKATTACK"/>
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_THIEVES_CANT"/>
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_CUNNINGACTION"/>
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_ROGUISHARCHETYPE"/>
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_ABILITYSCOREIMPROVEMENT_ROGUE"/>
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_UNCANNY_DODGE"/>
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_EVASION"/>
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_RELIABLETALENT"/>
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_BLINDSENSE"/>
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_SLIPPERYMIND"/>
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_ELUSIVE"/>
-			<div element="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_STROKEOFLUCK"/>
+
+			<div element="ID_HOMEBREW_CLASS_FEATURE_DIPLPOMATIC_TRAINING" />
+			<div element="ID_HOMEBREW_CLASS_FEATURE_PERSUASION_POINTS" />
+			<div element="ID_HOMEBREW_CLASS_FEATURE_DIFFUSE" />
+			<div element="ID_HOMEBREW_CLASS_FEATURE_HELPING_HAND" />
+			<div element="ID_HOMEBREW_CLASS_FEATURE_TRUE_PERSUASION" />
+			<div element="ID_HOMEBREW_CLASS_FEATURE_MENTAL_TRAINING" />
+			<div element="ID_HOMEBREW_CLASS_FEATURE_ALTER_MEMORY" />
+			<div element="ID_HOMEBREW_CLASS_FEATURE_LINGUIST" />
+			<div element="ID_HOMEBREW_CLASS_FEATURE_CHARISMATIC_MANIPULATION" />
+			<div element="ID_HOMEBREW_CLASS_FEATURE_WORD_OF_WISDOM" />
+			<div element="ID_HOMEBREW_CLASS_FEATURE_COUNTER_CHARM" />
+			<div element="ID_HOMEBREW_CLASS_FEATURE_OVERWHELMING_PERSONALITY" />
+			<div element="ID_HOMEBREW_CLASS_FEATURE_CROWD_CONTROL" />
+			<div element="ID_HOMEBREW_CLASS_FEATURE_FACIAL_DEDUCTION" />
+			<div element="ID_HOMEBREW_CLASS_FEATURE_DIPLOMATIC_SUGGESTION" />
+			<div element="ID_HOMEBREW_CLASS_FEATURE_MASTER_DIPLOMAT" />
+
 		</description>
-		<sheet display="false">
-			<description>A scoundrel who uses stealth and trickery to overcome obstacles and enemies.</description>
-		</sheet>
+
 		<setters>
 			<set name="short">A scoundrel who uses stealth and trickery to overcome obstacles and enemies.</set>
 			<set name="hd">d8</set>
 		</setters>
+	
 		<rules>
-			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_WOTC_PHB_MULTICLASS_ROGUE" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_WOTC_PHB_MULTICLASS_ROGUE" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HAND" requirements="!ID_WOTC_PHB_MULTICLASS_ROGUE" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD" requirements="!ID_WOTC_PHB_MULTICLASS_ROGUE" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER" requirements="!ID_WOTC_PHB_MULTICLASS_ROGUE" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD" requirements="!ID_WOTC_PHB_MULTICLASS_ROGUE" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS" requirements="!ID_WOTC_PHB_MULTICLASS_ROGUE" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" requirements="!ID_WOTC_PHB_MULTICLASS_ROGUE" />
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE" requirements="!ID_WOTC_PHB_MULTICLASS_ROGUE" />
-			<select type="Proficiency" name="Skill Proficiency (Rogue)" supports="Skill,Rogue" number="4" requirements="!ID_WOTC_PHB_MULTICLASS_ROGUE" />
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_EXPERTISE" level="1"/>
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_SNEAKATTACK" level="1"/>
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_THIEVES_CANT" level="1"/>
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_CUNNINGACTION" level="2"/>
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_ROGUISHARCHETYPE" level="3"/>
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_ABILITYSCOREIMPROVEMENT_ROGUE" level="4"/>
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_UNCANNY_DODGE" level="5"/>
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_EVASION" level="7"/>
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_RELIABLETALENT" level="11"/>
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_BLINDSENSE" level="14"/>
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_SLIPPERYMIND" level="15"/>
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_ELUSIVE" level="18"/>
-			<grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_ROGUE_STROKEOFLUCK" level="20"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_HOMEBREW_MULTICLASS_DIPLOMATMAT" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_HOMEBREW_MULTICLASS_DIPLOMAT" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_CALLIGRAPHERS_SUPPLIES" requirements="!ID_HOMEBREW_MULTICLASS_DIPLOMAT" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER" requirements="!ID_HOMEBREW_MULTICLASS_DIPLOMAT" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD" requirements="!ID_HOMEBREW_MULTICLASS_DIPLOMAT" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" requirements="!ID_HOMEBREW_MULTICLASS_DIPLOMAT" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_HOMEBREW_MULTICLASS_DIPLOMAT" />
+			<select type="Proficiency" name="Skill Proficiency (Diplomat)" supports="ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_PERSUASION|ID_PROFICIENCY_SKILL_DECEPTION|ID_PROFICIENCY_SKILL_PERFORMANCE" number="4" requirements="!ID_HOMEBREW_MULTICLASS_DIPLOMAT" />
+			
+			<grant type="Class Feature" id="ID_HOMEBREW_CLASS_FEATURE_DIPLPOMATIC_TRAINING" level="1"/>
+			<grant type="Class Feature" id="ID_HOMEBREW_CLASS_FEATURE_PERSUASION_POINTS" level="2"/>
+			<grant type="Class Feature" id="ID_HOMEBREW_CLASS_FEATURE_DIFFUSE" level="2"/>
+			<grant type="Class Feature" id="ID_HOMEBREW_CLASS_FEATURE_HELPING_HAND" level="3"/>
+			<grant type="Class Feature" id="ID_HOMEBREW_CLASS_FEATURE_DIPLOMAT_ARCHETYPE" level="3"/>
+			<grant type="Class Feature" id="ID_HOMEBREW_CLASS_FEATURE_DIPLOMAT_ABILITYSCOREIMPROVEMENT_DIPLOMAT" level="3"/>
+			<grant type="Class Feature" id="ID_HOMEBREW_CLASS_FEATURE_ROGUE_UNCANNY_DODGE" level="5"/>
+			<grant type="Class Feature" id="ID_HOMEBREW_CLASS_FEATURE_ROGUE_EVASION" level="7"/>
+			<grant type="Class Feature" id="ID_HOMEBREW_CLASS_FEATURE_ROGUE_RELIABLETALENT" level="11"/>
+			<grant type="Class Feature" id="ID_HOMEBREW_CLASS_FEATURE_ROGUE_BLINDSENSE" level="14"/>
+			<grant type="Class Feature" id="ID_HOMEBREW_CLASS_FEATURE_ROGUE_SLIPPERYMIND" level="15"/>
+			<grant type="Class Feature" id="ID_HOMEBREW_CLASS_FEATURE_ROGUE_ELUSIVE" level="18"/>
+			<grant type="Class Feature" id="ID_HOMEBREW_CLASS_FEATURE_ROGUE_STROKEOFLUCK" level="20"/>
 		</rules>
 		<multiclass id="ID_WOTC_PHB_MULTICLASS_ROGUE">
 			<prerequisite>Dexterity 13</prerequisite>
